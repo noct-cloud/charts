@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  noct-cloud:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-09-30T17:53:19.3540536-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 07ea5c4468b02496bd154bb8459686801e9eb4a3d3c16fb88a9e35f136e7dcd8
+    name: noct-cloud
+    type: application
+    urls:
+    - https://github.com/noct-cloud/charts/noct-cloud-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-09-30T17:53:19.353054-03:00"
