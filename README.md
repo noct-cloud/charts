@@ -19,7 +19,7 @@ helm package noct-cloud
 
 
 mv mychart-0.1.0.tgz docs
-helm repo index docs --url https://github.com/noct-cloud/charts
+helm repo index docs --url https://noct-cloud.github.io/charts/
 git add -i
 git commit -av
 git push origin master

@@ -3,7 +3,7 @@ entries:
   metrics-server:
   - apiVersion: v1
     appVersion: 0.3.6
-    created: "2020-10-01T11:45:11.859579-03:00"
+    created: "2020-10-01T12:15:54.0365488-03:00"
     description: Metrics Server is a cluster-wide aggregator of resource usage data.
     digest: 92a42ea0d9efd53207a9ca8ec914746749b02ad13bf8b59e8935d4dbbefc4ad7
     home: https://github.com/kubernetes-incubator/metrics-server
@@ -23,7 +23,7 @@ entries:
   noct-cloud:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-01T11:45:11.9235392-03:00"
+    created: "2020-10-01T12:15:54.1065057-03:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -35,34 +35,4 @@ entries:
     urls:
     - https://noct-cloud.github.io/charts/noct-cloud-0.1.0.tgz
     version: 0.1.0
-  traefik:
-  - apiVersion: v1
-    appVersion: 1.7.24
-    created: "2020-10-01T11:45:11.9265399-03:00"
-    description: A Traefik based Kubernetes ingress controller with Let's Encrypt
-      support
-    digest: d8375c21eb3905ff7568f641db14916b50a22400bc06a6b99260e5a2cd00d89a
-    home: https://traefik.io/
-    icon: https://docs.traefik.io/assets/img/traefik.logo.png
-    keywords:
-    - traefik
-    - ingress
-    - acme
-    - letsencrypt
-    maintainers:
-    - email: kent.rancourt@microsoft.com
-      name: krancour
-    - email: emile@vauge.com
-      name: emilevauge
-    - email: daniel.tomcej@gmail.com
-      name: dtomcej
-    - email: ludovic@containo.us
-      name: ldez
-    name: traefik
-    sources:
-    - https://github.com/containous/traefik
-    - https://github.com/helm/charts/tree/master/stable/traefik
-    urls:
-    - https://noct-cloud.github.io/charts/traefik-1.87.2.tgz
-    version: 1.87.2
-generated: "2020-10-01T11:45:11.85758-03:00"
+generated: "2020-10-01T12:15:54.0345501-03:00"

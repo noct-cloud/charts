@@ -31,7 +31,7 @@ dependencies:
   repository: "https://noct-cloud.github.io/charts/"
 - name: traefik
   version: "9.2.1"
-  repository: "https://noct-cloud.github.io/charts/"
+  repository: "https://helm.traefik.io/traefik"
 - name: kube-prometheus-stack
   version: "9.4.3"
   repository: "https://prometheus-community.github.io/helm-charts"  

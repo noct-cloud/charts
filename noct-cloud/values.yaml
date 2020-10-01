@@ -8,5 +8,8 @@ prometheus:
       limits.memory: 500Mi
 
 traefik:
-  httpsPort: 7443
-  httpPort: 7080
+  ports:
+    web:
+      exposedPort: 7080
+    websecure:
+      exposedPort: 7443  

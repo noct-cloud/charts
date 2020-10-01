@@ -1,6 +1,15 @@
 dependencies:
+- name: cert-manager
+  repository: https://charts.jetstack.io
+  version: 1.0.1
+- name: metrics-server
+  repository: https://noct-cloud.github.io/charts/
+  version: 2.11.2
+- name: traefik
+  repository: https://helm.traefik.io/traefik
+  version: 9.2.1
 - name: kube-prometheus-stack
   repository: https://prometheus-community.github.io/helm-charts
   version: 9.4.3
-digest: sha256:ab9fd796512604c29a2b232841c6d6a114c3aeb6c789a36fec0654fb0c59bbdd
-generated: "2020-10-01T11:24:30.9015279-03:00"
+digest: sha256:145a9f33095c7fd1d2a8961ce3edd57754893177e49452856a4b695df48db657
+generated: "2020-10-01T12:18:05.2358829-03:00"
