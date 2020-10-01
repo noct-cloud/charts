@@ -1,2 +1,7 @@
 cert-manager:
   installCRDs: true
+prometheus:
+  prometheusSpec:
+    resources:
+      requests.memory: 250Mi
+      limits.memory: 250Mi
