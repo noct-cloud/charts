@@ -28,7 +28,7 @@ dependencies:
   repository: "https://charts.jetstack.io"
 - name: metrics-server
   version: "2.11.12"
-  repository: "https://kubernetes-charts.storage.googleapis.com"
+  repository: "https://noct-cloud.github.io/charts/"
 - name: traefik
   version: "9.2.1"
   repository: "https://noct-cloud.github.io/charts/"

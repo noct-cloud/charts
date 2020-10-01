@@ -1,14 +1,68 @@
 apiVersion: v1
 entries:
+  metrics-server:
+  - apiVersion: v1
+    appVersion: 0.3.6
+    created: "2020-10-01T11:35:53.5183886-03:00"
+    description: Metrics Server is a cluster-wide aggregator of resource usage data.
+    digest: 92a42ea0d9efd53207a9ca8ec914746749b02ad13bf8b59e8935d4dbbefc4ad7
+    home: https://github.com/kubernetes-incubator/metrics-server
+    keywords:
+    - metrics-server
+    maintainers:
+    - email: o.with@sportradar.com
+      name: olemarkus
+    - email: k.aasan@sportradar.com
+      name: kennethaasan
+    name: metrics-server
+    sources:
+    - https://github.com/kubernetes-incubator/metrics-server
+    urls:
+    - https://github.com/noct-cloud/charts/metrics-server-2.11.2.tgz
+    version: 2.11.2
   noct-cloud:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-09-30T17:53:19.3540536-03:00"
+    created: "2020-10-01T11:35:53.5813495-03:00"
+    dependencies:
+    - name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 9.4.3
     description: A Helm chart for Kubernetes
-    digest: 07ea5c4468b02496bd154bb8459686801e9eb4a3d3c16fb88a9e35f136e7dcd8
+    digest: 1219b10ccffd383f998d7a47769cb5cc4b7abe1b57fc22c86e872dc6409860d8
     name: noct-cloud
     type: application
     urls:
     - https://github.com/noct-cloud/charts/noct-cloud-0.1.0.tgz
     version: 0.1.0
-generated: "2020-09-30T17:53:19.353054-03:00"
+  traefik:
+  - apiVersion: v1
+    appVersion: 1.7.24
+    created: "2020-10-01T11:35:53.5843471-03:00"
+    description: A Traefik based Kubernetes ingress controller with Let's Encrypt
+      support
+    digest: d8375c21eb3905ff7568f641db14916b50a22400bc06a6b99260e5a2cd00d89a
+    home: https://traefik.io/
+    icon: https://docs.traefik.io/assets/img/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    - acme
+    - letsencrypt
+    maintainers:
+    - email: kent.rancourt@microsoft.com
+      name: krancour
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel.tomcej@gmail.com
+      name: dtomcej
+    - email: ludovic@containo.us
+      name: ldez
+    name: traefik
+    sources:
+    - https://github.com/containous/traefik
+    - https://github.com/helm/charts/tree/master/stable/traefik
+    urls:
+    - https://github.com/noct-cloud/charts/traefik-1.87.2.tgz
+    version: 1.87.2
+generated: "2020-10-01T11:35:53.5163894-03:00"
